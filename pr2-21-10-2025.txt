@@ -1,0 +1,9 @@
+import random
+n=int(input('n='))
+c6=0
+for i in range(n):
+    nr=random.randit(1,6)
+    print(nr)
+    if nr==6:
+        c6+=1
+print('Valoarea 6 a aparut de ',c6,'ori')

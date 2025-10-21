@@ -1,0 +1,13 @@
+import random
+n=int(input('n='))
+Spoz=0
+Sneg=0
+for i in range(n):
+    nr=random.randint(-50,50)
+    print(nr)
+    if nr>0:
+        Spoz+=nr
+    else:
+        Sneg+=nr
+print('Suma elementelor pozitive=',Spoz)
+print('Suma elementelor negative=',Sneg)

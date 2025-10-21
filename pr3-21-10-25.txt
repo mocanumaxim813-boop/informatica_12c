@@ -1,0 +1,9 @@
+import random
+for i in range(n):
+    nr1=random.randit(1,6)
+    print(nr1)
+for i in range(1):
+    nr2=random.randit(1,6)
+    print(nr2)
+if nr1==nr2:
+    print('Numere duble,sum=',nr1+nr2)
